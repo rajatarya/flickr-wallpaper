@@ -1,0 +1,12 @@
+# Group Ids for Flickr groups, remember to keep them comma separated
+groups = 796617@N22, 21065750@N00, 458980@N23, 1303468@N20
+
+# Path to store the downloaded files
+image_root = /tmp/wallpapers
+
+# API Key for Flickr APIs
+api_key = [REPLACE WITH REAL API KEY]
+
+# Used to make sure we only go to retrieve recent pictures
+[796617@N22]
+min_upload_date = 0
