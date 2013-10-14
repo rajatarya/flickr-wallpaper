@@ -7,3 +7,6 @@ This script has parts lifted from flickr.py (http://code.google.com/p/flickrpy/)
 
 Installation:
 pip install the requirements.pip file (really just needs ConfigObj), and then run however you'd like.
+
+Sample Cron line (Sunday at 11pm go and fetch latest photos):
+ 23   *   *   *  0  echo `date` >> ~/logs/flickr-wallpaper.log; /usr/bin/python ~/code/flickr-wallpaper/flickr-wallpaper.py >> ~/logs/flickr-wallpaper.log
