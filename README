@@ -6,4 +6,4 @@ The script requires a Flickr API key and at least one Flickr GroupID, both value
 This script has parts lifted from flickr.py (http://code.google.com/p/flickrpy/) though large portions of the sript have been simplified/changed.
 
 Installation:
-Simply download and run with python v2.5+
+pip install the requirements.pip file (really just needs ConfigObj), and then run however you'd like.
